@@ -1,0 +1,25 @@
+{
+  "name": "vuetify-nuxt-phosphor-vue-integration",
+  "type": "module",
+  "packageManager": "pnpm@8.14.0",
+  "description": "vuetify-nuxt-module + @phosphor-icons/vue integration",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "nr lint --fix"
+  },
+  "dependencies": {
+    "@phosphor-icons/vue": "^2.1.6"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.1.1",
+    "eslint": "^8.54.0",
+    "nuxt": "^3.9.0",
+    "typescript": "^5.3.3",
+    "vuetify-nuxt-module": "^0.8.0"
+  }
+}
